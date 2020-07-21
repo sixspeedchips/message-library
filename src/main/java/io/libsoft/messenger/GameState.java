@@ -11,10 +11,10 @@ public class GameState implements Serializable {
 
   private static final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
-  private final List<PEntity> pEntities = new LinkedList<>();
+  private final List<String> pEntities = new LinkedList<>();
 
 
-  public List<PEntity> getPEntities() {
+  public List<String> getPEntities() {
     return pEntities;
   }
 
